@@ -71,7 +71,7 @@ function grfs_plugin_options() {
 <div class="wrap">
 <p>Footer Slideup Form is one of the best ways to ask your user to subscribe to your list without any interruption or blocking and this plugin does exactly that.  It adds GetResponse subscribe form in the footer of your Wordpress blog. <A HREF="http://www.codeitwell.com/go/gr">GetResponse</A> (Aff Link) is an autoresponders which allows you to send series of email message to subscribers.</p>
 <p>If you are still not using GetResponse for your blog and thinking of purchase you can use my affiliate <A HREF="http://www.codeitwell.com/go/gr/">link</A>.</p>
-<p>For all your queries, help and support for plugin please post them in comments <A HREF="http://www.codeitwell.com/getresponse-footer-slideup/" target="_blank">at my blog</A>. I will be actively supporting the plugin.</p>
+<p>For all your queries, help and support for plugin please post them in comments <A HREF="http://www.codeitwell.com/getresponse-footer-slideup.html" target="_blank">at my blog</A>. I will be actively supporting the plugin.</p>
 
 <form method="post" action="options.php">
 <?php settings_fields( 'grfs-settings-group' ); ?>
