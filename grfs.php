@@ -38,7 +38,7 @@ if($grfs_hiddenfields =='') return;
 
 	<div class="tagline"><?php $grfs_tagline=get_option('grfs_tagline'); echo $grfs_tagline==''?'Subscribe By Email for Weekly Updates.':$grfs_tagline; ?></div>
 
-	<form accept-charset="utf-8" action="http://www.getresponse.com/cgi-bin/add.cgi">
+	<form accept-charset="utf-8" action="http://www.getresponse.com/add_contact_webform.html">
 		<?php echo $grfs_hiddenfields ?>
 		<input type="text" name="name" id="subscriber_name" class="formInputfooter formInputNamefooter" value="What is your name?" size="20" />
 		<input type="text" name="email" id="subscriber_email" class="formInputfooter formInputEmailfooter" value="What is your email?" size="20" />
