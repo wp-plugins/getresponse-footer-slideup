@@ -2,7 +2,7 @@
 Contributors: shabbirbhimani
 Tags: GetResponse, Footer Form, SLideUp
 Requires at least: 2.8
-Tested up to: 2.9.2
+Tested up to: 3.1.1
 Stable tag: trunk
 
 Footer Slideup Form adds an GetResponse Opt-In form into the footer where user's can subscribe to your List.
@@ -39,10 +39,16 @@ Yes I will be more than happy to help. Just post them in comments on my <A href=
 
 == Changelog ==
 
+= 0.2 -
+* Support for new GetResponse Code
+
 = 0.1 =
 * Basic Working Version of GetResponse Footer Slideup with Admin Options Added.
 
 == Upgrade Notice ==
+
+= 0.2 =
+Just Replace the content of the plugins folder with the new content and re-activate the plugin.
 
 = 0.1 =
 This is the initial version and so there is nothing to upgrade.

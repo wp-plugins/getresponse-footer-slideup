@@ -4,7 +4,7 @@
 	Plugin URI: http://wordpress.org/extend/plugins/getresponse-footer-slideup/
 	Description: Footer Slideup Form is one of the best ways to ask your user to subscribe to your list without any interruption or blocking and this plugin does exactly that.  It adds GetResponse subscribe form in the footer of your Wordpress blog. <A HREF="http://imtips.co/go/gr">GetResponse</A> (Aff Link) is an autoresponders which allows you to send series of email message to subscribers.
 	Author: Shabbir Bhimani
-	Version: 0.1
+	Version: 0.2
 	Author URI: http://imtips.co/
  */
 if ( ! defined( 'WP_CONTENT_URL' ) )
@@ -39,10 +39,9 @@ if($grfs_hiddenfields =='') return;
 	<div class="tagline"><?php $grfs_tagline=get_option('grfs_tagline'); echo $grfs_tagline==''?'Subscribe By Email for Weekly Updates.':$grfs_tagline; ?></div>
 
 	<form accept-charset="utf-8" action="http://www.getresponse.com/cgi-bin/add.cgi">
-		<input type="hidden" name="custom_http_referer" id="custom_http_referer" value=""/>
 		<?php echo $grfs_hiddenfields ?>
-		<input type="text" name="subscriber_name" id="subscriber_name" class="formInputfooter formInputNamefooter" value="What is your name?" size="20" />
-		<input type="text" name="subscriber_email" id="subscriber_email" class="formInputfooter formInputEmailfooter" value="What is your email?" size="20" />
+		<input type="text" name="name" id="subscriber_name" class="formInputfooter formInputNamefooter" value="What is your name?" size="20" />
+		<input type="text" name="email" id="subscriber_email" class="formInputfooter formInputEmailfooter" value="What is your email?" size="20" />
 		<input type="submit" name="submit" class="formInputSubmitfooter" value="Subscribe Now !!!">
 	</form>
 <script type="text/javascript">var el=document.getElementById("custom_http_referer");if(el != null){el.value = document.location};</script>
