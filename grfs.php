@@ -4,7 +4,7 @@
 	Plugin URI: http://wordpress.org/extend/plugins/getresponse-footer-slideup/
 	Description: Footer Slideup Form is one of the best ways to ask your user to subscribe to your list without any interruption or blocking and this plugin does exactly that.  It adds GetResponse subscribe form in the footer of your Wordpress blog. <A HREF="http://imtips.co/go/gr">GetResponse</A> (Aff Link) is an autoresponders which allows you to send series of email message to subscribers.
 	Author: Shabbir Bhimani
-	Version: 0.2
+	Version: 0.3
 	Author URI: http://imtips.co/
  */
 if ( ! defined( 'WP_CONTENT_URL' ) )
